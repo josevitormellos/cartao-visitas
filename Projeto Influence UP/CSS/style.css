@@ -1,0 +1,708 @@
+/*IMPORT FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300&display=swap');
+
+/*HEADER*/
+@media (max-width:980px) {
+  header{
+    background-image: linear-gradient(white, rgb(228, 228, 228));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    }
+ 
+    #logo{
+      
+        width: 400px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .prodbtn{
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+     text-decoration: none;
+    }
+ 
+    .prodbtnc{
+      background-image: linear-gradient(90deg, rgb(159, 17, 187), rgb(199, 37, 140));
+      border:none;
+    
+      width: 100%;
+      height: 100px;
+      transition: 0.50s;
+    }
+    .contatobtn{
+
+      background-image: linear-gradient(90deg, rgb(159, 17, 187), rgb(199, 37, 140));
+      color: white;
+      border: none;
+      font-size: 16px;
+      width: 100%;
+      height: 100px;
+      margin: 0 auto;
+      
+    }
+    .contatolink{
+      
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+.dropdown{
+  display: none;
+}
+
+/*MAIN*/
+.principal-main{
+  background-image: linear-gradient( rgb(159, 17, 187), rgb(199, 37, 140));
+  height: 900px;
+  text-align: center;
+  box-shadow: inset 0 4px 3px rgba(0, 0, 0, 0.35);
+  
+}
+
+.conteudo{
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Outfit";
+  font-size: 28px;
+}
+
+
+/*MAIN CONTATO*/
+.txtcontato{
+  width: 25%;
+  font-size: 20px;
+  text-align: center;
+  font-family: Playfair Display ;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(90deg, rgba(159, 17, 187), rgb(199, 37, 140) );
+  color: white;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.583);
+
+  padding: 70px 40px 70px 40px;
+
+}
+
+.imgcontato{
+  margin: 0 auto;
+  margin-left: 100px ;
+  opacity: 0.8;
+  transition: 0.45s;
+  width: 400px;
+}
+.imgcontato:hover{
+  opacity: 1;
+}
+.contato{
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+}
+
+/*Planos*/
+.planos {
+  z-index:19;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background: #ffffff00;
+  text-align: center;
+}
+
+.planos h2 {
+  text-shadow: 2px 2px 5px black;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 30px;
+  display: inline;
+
+}
+
+.foguete{
+  width: 40px;
+  opacity: 0.7;
+  transition: 0.45s;
+}
+.foguete:hover{
+opacity: 1;
+}
+
+.plano {
+
+  background: white;
+  width: 100%;
+  display: block;
+  margin: 1em 0 0 0;
+  padding-bottom: 2em;
+  border: 1px rgba(0, 0, 0, 0.522) solid;
+  transition: 0.45s;
+  text-align: center;
+}
+.plano h3 {
+  color: white;
+  font-size: 1.8em;
+  background: rgb(159, 17, 187);
+  text-align: center;
+  height: 2em;
+  padding-top: .6em;
+  margin-top: 0;
+}
+.plano div {
+  text-align: center;
+  color: rgb(159, 17, 187);
+  font-size: 2.75em;
+}
+.plano button {
+  background: rgb(159, 17, 187);
+  border: 0;
+  color: white;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  
+}
+
+.plano:hover {
+  background: #dedede;
+}
+
+.itens-plano {
+  text-align: center;
+  
+}
+.itens-plano li {
+  font-size: 1em;
+  list-style: none;
+  border-bottom: 1px solid #acacac;
+  
+}
+.itens-plano li:last-child {
+  border: 0;
+}
+
+
+  
+    /*WhatsFixed*/
+  .whatsapp-fixed{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    z-index:999;
+    transition: 0.45s;
+  }
+  .whatsapp-fixed:hover{
+    height: 80px;
+    width: 80px;
+  }
+  #background-fire{
+    text-align: center;
+    margin: 0 auto;
+    z-index: -10;
+    padding-top: 100px;
+    padding-bottom: -20px;
+    margin-top: -300px;
+    margin-bottom: -10px;
+    position: relative;
+    
+      
+    }
+    #background-fire img{
+      width: 100%;
+      opacity: 0.6;
+      z-index: 1;
+      position:relative; 
+      top:0px; left:0px;
+    }
+ 
+      
+    /*MAIN REDES*/
+    .redes{
+      margin: 0 auto;
+      text-align: center;
+      background-image: linear-gradient(120deg,rgb(199, 37, 140), rgba(159, 17, 187));
+      height: 250px;
+      box-shadow: inset 0 -4px 3px rgba(0, 0, 0, 0.35);
+      z-index:19;
+    }
+    .imgredes{
+      margin: 0 auto;
+      margin-left: 20px ;
+      opacity: 0.8;
+      transition: 0.70s;
+      width: 70px;
+      
+      
+    }
+    .imgredes:hover{
+      opacity: 1;
+      width:80px;
+      
+    }
+    .redesimg{
+      margin: 0 auto;
+      padding-top: 20px;
+      
+     
+    }
+    .txtredes{
+     
+      display: none;
+    }
+    
+    .espaço{
+      display: none;
+    }
+    /*FOOTER*/
+    footer{
+      background-color: rgb(33, 33, 33);
+      height: 470px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .rodape{
+     text-align: center;
+      color: #f9f9f9;
+      font-size: 12px;
+      border-top: 1px #f9f9f9 solid;
+      padding-top: 10px;
+     margin-top: 40px;
+     
+    }
+    .mapa-conteudo{
+      text-align: center;
+      color: #f9f9f9;
+      padding-top: 20px;
+      
+    }
+    .emailcontato{
+      color: #f9f9f9;
+      padding-top: 20px;
+    }
+    .titulorodape{
+      font-size: 16px;
+    }
+    .localiza{
+      margin-top: 20px;
+    }
+
+
+
+}
+@media(min-width: 981px) {
+   /*HEADER*/
+header{
+  background-image: -moz-radial-gradient(white, rgb(228, 228, 228));
+  border-bottom: #c2c1c1bd 2px solid;
+  height: 120px;
+  
+  }
+  .topototal{
+      border-bottom: #595959 2px solid;
+  }
+  .logo{
+      position: absolute;
+      left: 0;
+      top:20px;
+      
+  }
+  #logo{
+      text-align: center;
+      width: 200px;
+      justify-content: center;
+  }
+  #botoes{
+    padding-top: 35px;
+    padding-right: 30px;
+  }
+  .seta{
+    width: 10px;
+    opacity: 0.7;
+    margin-left: 3px;
+    
+  }
+  .prodbtn{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+   
+    
+  }
+  .prodbtnc{
+    background-color: white;
+    border:none;
+    padding: 16px;
+    float: right;
+    
+  }
+  .btncontato{
+    padding-left: 50px;
+    float: right;
+  }
+  .contatobtn{
+    padding:16px;
+    background-image: linear-gradient(90deg, rgb(159, 17, 187), rgb(199, 37, 140));
+    color: white;
+    border: none;
+    font-size: 16px;
+    
+  }
+  .contatolink{
+    
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+    /*Main*/
+    .principal-main{
+      background-image: linear-gradient( rgb(159, 17, 187), rgb(199, 37, 140));
+      height: 900px;
+      text-align: center;
+      box-shadow: inset 0 4px 3px rgba(0, 0, 0, 0.35);
+      
+    }
+    .principal{
+      text-align: center;
+    }
+    .conteudo{
+
+      color: white;
+      margin-top: 40px;
+      text-align: center;
+      font-family: "Outfit";
+      font-size: 28px;
+
+    }
+    #txtconteudo{
+     padding: 0 40px 0 40px;
+      text-align: center;
+    }
+    
+
+    .video{
+      width: 1000px;
+      height: 500px;
+      border-radius: 4px;
+      text-align: center;
+      margin-top: 60px;
+      margin-left: 80px;
+      box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.583);
+    }
+    .inicio-p{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    
+    /*MAIN PRODUTOS*/
+    
+    
+    .planos {
+      z-index:999;
+      padding-top: 3%;
+      padding-bottom: 5%;
+      background: #ffffff00;
+      text-align: center;
+    }
+    
+    .planos h2 {
+      text-shadow: 2px 2px 5px black;
+      color: white;
+      font-size: 40px;
+      font-style: italic;
+      margin-bottom: 3%;
+    
+    }
+    .planos a{
+      z-index: 999;
+    }
+    
+    .foguete{
+      opacity: 0.7;
+      transition: 0.45s;
+    }
+    .foguete:hover{
+    opacity: 1;
+    }
+    
+    .plano {
+      z-index:999;
+      background: white;
+      width: 18em;
+      display: inline-block;
+      margin: 1em 0 0 1.4em;
+      padding-bottom: 2em;
+      border: 1px rgba(0, 0, 0, 0.522) solid;
+      transition: 0.45s;
+    }
+    .plano h3 {
+      color: white;
+      font-size: 1.8em;
+      background: rgb(159, 17, 187);
+      text-align: center;
+      height: 2em;
+      padding-top: .6em;
+      margin-top: 0;
+    }
+    .plano div {
+      text-align: center;
+      color: rgb(159, 17, 187);
+      font-size: 2.75em;
+    }
+    .plano button {
+      background: rgb(159, 17, 187);
+      border: 0;
+      color: white;
+      width: 210px;
+      height: 38px;
+      font-size: 1.2em;
+      -webkit-border-radius: 0.3em;
+      border-radius: 0.3em;
+      box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      
+    }
+    
+    .plano:hover {
+      background: #dedede;
+    }
+    
+    .itens-plano {
+      text-align: left;
+      padding-left: 1.2em;
+    }
+    .itens-plano li {
+      font-size: 1em;
+      list-style: none;
+      border-bottom: 1px solid #acacac;
+      padding: .5em;
+      width: 14.8em;
+    }
+    .itens-plano li:last-child {
+      border: 0;
+    }
+    .itens-plano span {
+      float: right;
+    }
+    
+    .icone-check, .icone-x {
+      background: url(../imagens/sprite.png) no-repeat;
+      width: 18px;
+      height: 18px;
+    }
+    
+    .icone-check {
+      background-position: -5px -5px;
+    }
+    
+    .icone-x {
+      background-position: -33px -5px;
+    }
+    
+    
+    /*MAIN CONTATO*/
+    .txtcontato{
+      width: 30%;
+      font-size: 30px;
+      text-align: center;
+      font-family: Playfair Display ;
+      font-style: italic;
+      font-weight: 500;
+      margin: 0 auto;
+      display: inline-block;
+      margin-left: 240px;
+      margin-bottom: 50px;
+      background-image: linear-gradient(90deg, rgba(159, 17, 187), rgb(199, 37, 140) );
+      color: white;
+      box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.583);
+    
+      padding: 70px 40px 70px 40px;
+    
+    }
+    
+    .imgcontato{
+      margin: 0 auto;
+      margin-left: 100px ;
+      opacity: 0.8;
+      transition: 0.45s;
+    }
+    .imgcontato:hover{
+      opacity: 1;
+    }
+    .contato{
+      margin-top: 80px;
+      margin-bottom: 80px;
+    
+    }
+    
+    /*MAIN REDES*/
+    .redes{
+      float: fixed;
+      margin: 0 auto;
+      text-align: center;
+      background-image: linear-gradient(120deg,rgb(199, 37, 140), rgba(159, 17, 187));
+      height: 300px;
+      box-shadow: inset 0 -4px 3px rgba(0, 0, 0, 0.35);
+      z-index:19;
+    }
+    .imgredes{
+      margin: 0 auto;
+      margin-left: 20px ;
+      opacity: 0.8;
+      transition: 0.70s;
+      margin-top: 3%;
+      width: 48px;
+      float: left;
+      
+    }
+    .imgredes:hover{
+      opacity: 1;
+      width:60px;
+      box-shadow: 10px black;
+      
+    }
+    .redesimg{
+      margin: 0 auto;
+      padding-top: 5%;
+      padding-left: 24%;
+      float: left;
+    }
+    .txtredes{
+     
+      font-size: 24px;
+      color: white;
+      font-style: italic;
+      width: 600px;
+    padding-top: 110px;
+    margin-right: 22%;
+      float: right;
+    }
+    
+    
+    /*FOOTER*/
+    footer{
+      background-color: rgb(33, 33, 33);
+      height: 15%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .rodape{
+     text-align: center;
+      color: #f9f9f9;
+      font-size: 12px;
+      border-top: 1px #f9f9f9 solid;
+      padding-top: 10px;
+     margin-top: 40px;
+     
+    }
+    .mapa-conteudo{
+      text-align: center;
+      color: #f9f9f9;
+      padding-top: 20px;
+      
+    }
+    .emailcontato{
+      color: #f9f9f9;
+      padding-top: 20px;
+    }
+    .titulorodape{
+      font-size: 16px;
+    }
+    .localiza{
+      margin-top: 20px;
+    }
+    
+    
+    /*background-image: linear-gradient(90deg, rgb(159, 17, 187), rgb(199, 37, 140));*/
+ /*DROPDOWN*/
+ .dropbtn {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #a82c89;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  font-weight: 700;
+}
+.dropdown:hover .seta{
+  opacity: 1;
+}
+    
+    #background-fire{
+    text-align: center;
+    margin: 0 auto;
+    z-index: -10;
+    padding-top: -50px;
+    padding-bottom: -20px;
+    margin-top: -200px;
+    margin-bottom: -10px;
+    position: relative;
+    
+      
+    }
+    #background-fire img{
+      width: 40%;
+      opacity: 0.6;
+      z-index: 1;
+      position:relative; 
+      top:0px; left:0px;
+    }
+
+        /*WhatsFixed*/
+  .whatsapp-fixed{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    z-index:999;
+    transition: 0.45s;
+  }
+  .whatsapp-fixed:hover{
+    height: 80px;
+    width: 80px;
+  }
+  
+
+}
+ 
